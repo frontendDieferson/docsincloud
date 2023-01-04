@@ -1,9 +1,10 @@
 import React from "react";
+import DocumentUpload from "../../components/DocumentoUpload";
 
 function Home() {
     return(
         <div>
-            Página Inicial da Plataforma
+           <DocumentUpload />
         </div>
     )
 }
